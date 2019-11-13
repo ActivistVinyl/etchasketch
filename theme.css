@@ -1,0 +1,22 @@
+#innerContainer {
+    width: 550px;
+    height: 550px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.pixelBox {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
