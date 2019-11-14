@@ -11,13 +11,8 @@ function createBoxes() {
         const newBox = document.createElement("div");
         newBox.setAttribute("class", "pixelBox");
         innerContainer.appendChild(newBox);
+        newBox.addEventListener("mouseover", (e) => {
+            newBox.style.backgroundColor = "black";
+        });
     }
-    listener();
-}
-
-function listener() {
-    const mouseOver = document.querySelector("#pixelBox");
-    mouseOver.addEventListener("mouseover", (e) => {
-        alert("pizza");
-    });
 }
